@@ -160,13 +160,50 @@ def show_table(data):
         btn_linha.clicked.connect(lambda _, c=(str(classe)+"_l", str(code)): locate_and_edit_layer(c, dialog))
         btn_poligono.clicked.connect(lambda _, c=(str(classe)+"_a", str(code)) : locate_and_edit_layer(c, dialog))
 
+        estilo_bt = """
+            QPushButton {
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                background-color: #4CAF50; /* Cor de fundo */
+                border: none;
+                padding: 5px;
+                border-radius: 15px;
+            }
+            QPushButton:hover {
+                background-color: #45A049; /* Cor quando o mouse estiver sobre o botão */
+            }
+            QPushButton:pressed {
+                background-color: #2E7D32; /* Cor quando o botão estiver pressionado */
+            }
+        """
+
+        estilo_bt_disable = """
+            QPushButton {
+                font-size: 14px;
+                font-weight: bold;
+                border: none;
+                padding: 5px;
+                border-radius: 15px;
+            }
+        """
+
         # Desabilitar botões de acordo com o tipo de geometria
         if 'p' not in tipo_geometria:
             btn_ponto.setDisabled(True)
+            btn_ponto.setStyleSheet(estilo_bt_disable)
+        else:
+            btn_ponto.setStyleSheet(estilo_bt)
         if 'l' not in tipo_geometria:
             btn_linha.setDisabled(True)
+            btn_linha.setStyleSheet(estilo_bt_disable)
+        else:
+            btn_linha.setStyleSheet(estilo_bt)
         if 'a' not in tipo_geometria:
             btn_poligono.setDisabled(True)
+            btn_poligono.setStyleSheet(estilo_bt_disable)
+        else:
+            btn_poligono.setStyleSheet(estilo_bt)
 
         # Adicionar os botões ao layout de botões
         button_layout.addWidget(btn_ponto)
@@ -187,7 +224,7 @@ def show_table(data):
     table.setColumnWidth(1, 50)
     table.setColumnWidth(2, 50)
     table.setColumnWidth(3, 200)
-    table.setColumnWidth(4, 100)
+    table.setColumnWidth(4, 150)
 
     # Aplicando alinhamento centralizado
     center_column(table, 1)
@@ -197,12 +234,12 @@ def show_table(data):
     # Obtendo a largura total da tabela
     total_width = sum(table.columnWidth(col) for col in range(table.columnCount()))
     header_width = table.horizontalHeader().height()  # Altura dos cabeçalhos das colunas
-    total_width += header_width + 30
+    total_width += header_width + 25
 
     # Obtendo a altura total da tabela
     total_height = sum(table.rowHeight(row) for row in range(table.rowCount()))
     header_height = table.verticalHeader().width()  # Largura dos cabeçalhos das linhas
-    total_height += header_height + 30
+    total_height += header_height + 35
 
     # Definir o tamanho mínimo e máximo do diálogo
     #screen = QApplication.primaryScreen()
