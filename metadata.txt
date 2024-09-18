@@ -1,0 +1,9 @@
+[general]
+name=SAPO
+description=Sistem de Apoio A Produção - Operador (Reambulador)
+about=Sistem de Apoio A Produção - Operador (Reambulador)
+version=1.0
+qgisMinimumVersion=3.0
+author=Barra 13
+email=mbsj2007@hotmail.com
+repository=URL to the code repository
