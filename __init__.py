@@ -46,7 +46,7 @@ class PluginName:
         return action
 
     def initGui(self):
-        icon_path = os.path.join(self.plugin_dir, 'icon.png')
+        icon_path = os.path.join(self.plugin_dir, 'img/sapo_reambulador_digitando.png')
         self.add_action(icon_path, text=self.tr(f'{PLUGIN_NAME} - Reambulador'), callback=self.run, parent=self.iface.mainWindow())
 
     def unload(self):
@@ -277,18 +277,18 @@ def principal(self):
     layout = QVBoxLayout(dialog)
 
     # Adicionar a imagem ico.png acima do campo de busca
-    image_label = QLabel(dialog)
-    pixmap = QPixmap(os.path.join(self.plugin_dir, 'ico.png'))  # Certifique-se de que o caminho esteja correto
-    pixmap = pixmap.scaled(100, 100, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-    image_label.setPixmap(pixmap)
-    image_label.setAlignment(Qt.AlignCenter)  # Centralizar a imagem
+    #image_label = QLabel(dialog)
+    #pixmap = QPixmap(os.path.join(self.plugin_dir, 'ico.png'))  # Certifique-se de que o caminho esteja correto
+    #pixmap = pixmap.scaled(100, 100, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+    #image_label.setPixmap(pixmap)
+    #image_label.setAlignment(Qt.AlignCenter)  # Centralizar a imagem
 
     # Adicionar GIF animado
     gif_label = QLabel()
-    gif = QMovie(os.path.join(self.plugin_dir, "sapo_reambulador.gif"))  # Certifique-se de ter um GIF na pasta do plugin
+    gif = QMovie(os.path.join(self.plugin_dir, "img/sapo_reambulador_digitando_video.gif"))  # Certifique-se de ter um GIF na pasta do plugin
     gif_label.setMovie(gif)
    
-    gif.setScaledSize(QSize(200, 200))
+    gif.setScaledSize(QSize(250, 250))
     gif_label.setFixedSize(250, 250)  # Ajuste o tamanho do GIF conforme necessário
     gif_label.setAlignment(Qt.AlignCenter)
     gif.start()
