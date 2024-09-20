@@ -6,4 +6,4 @@ version=1.0
 qgisMinimumVersion=3.0
 author=Barra 13
 email=mbsj2007@hotmail.com
-repository=URL to the code repository
+repository=https://github.com/m4rc05-34t15t4/sapo_reambulador
