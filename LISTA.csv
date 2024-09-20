@@ -618,3 +618,746 @@ code,code_name,tabela,filter,foreign_table,tipo_geometria
 14,Marco internacional (14),tipo_pto,NULL,llp_ponto_controle,p
 15,Marco estadual (15),tipo_pto,NULL,llp_ponto_controle,p
 16,Marco municipal (16),tipo_pto,NULL,llp_ponto_controle,p
+1,Ilha,tipo_elemento_hidrografico,NOME,centroide_ilha_p,p
+3,Oceano Atlântico,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+1,Riacho,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+10,Rio,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+1,Lagoa,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+10,Açude,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+1,Lagoa,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+9,Lago,tipo_elemento_hidrografico,NOME,centroide_massa_dagua_p,p
+132,Armazém,tipo_deposito,NOME,constr_deposito_a,"p,a"
+301,Aterro,tipo_veg,NOME,constr_deposito_a,p
+198,Belmont Transportes e Logística,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,Central de Tratamento de Resíduos,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,Condomínio de Galpões Monte Sinai,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,CT - Botelho Ipojuca,tipo_deposito,NOME,constr_deposito_a,"p,a"
+198,Depósito de Material Industrial,tipo_deposito,NOME,constr_deposito_a,"p,a"
+398,Estação de Tratamento de Efluentes,tipo_deposito,NOME,constr_deposito_a,"a,p"
+301,Estação de Tratamento de Esgoto,tipo_veg,NOME,constr_deposito_a,p
+108,Refinaria,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,Usina,tipo_deposito,NOME,constr_deposito_a,"p,a"
+113,White Martins Gases,tipo_deposito,NOME,constr_deposito_a,"a,p"
+108,Windrose Serviços Marítmos LTDA,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,Ziran Nordeste Transporte Rodoviario de Cargas Ltda,tipo_deposito,NOME,constr_deposito_a,"p,a"
+301,Aché Laboratórios Farmacêuticos,tipo_veg,NOME,constr_deposito_a,p
+108,Amanco Wavin,tipo_deposito,NOME,constr_deposito_a,"p,a"
+301,Estação de Tratamento de Esgoto - Gaibú,tipo_veg,NOME,constr_deposito_a,p
+301,Ingredion Brasil,tipo_veg,NOME,constr_deposito_a,p
+113,Combustível,tipo_deposito,NOME,constr_deposito_a,"a,p"
+113,Gás,tipo_deposito,NOME,constr_deposito_a,"a,p"
+108,Termopernambuco,tipo_deposito,NOME,constr_deposito_a,"p,a"
+132,Armazém de Açúcar - Usica Cucaú,tipo_deposito,NOME,constr_deposito_a,"p,a"
+398,Estação de Tratamento de Efluentes Industriais,tipo_deposito,NOME,constr_deposito_a,"a,p"
+301,Usina Cucaú,tipo_veg,NOME,constr_deposito_a,p
+198,Areia,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,Barcos,tipo_deposito,NOME,constr_deposito_a,"p,a"
+301,Compesa,tipo_veg,NOME,constr_deposito_a,p
+108,Maquinário,tipo_deposito,NOME,constr_deposito_a,"p,a"
+108,NE Marinas,tipo_deposito,NOME,constr_deposito_a,"p,a"
+306,Aterro Controlado- Consórcios de municípios do Litoral Sul,tipo_deposito,NOME,constr_deposito_a,"p,a"
+201,Estação de Tratamento de Água - Compahia Pernambucana de Saneamento,tipo_veg,NOME,constr_deposito_a,p
+108,Refinaria Abreu  e Lima,tipo_deposito,NOME,constr_deposito_p,"p,a"
+101,Refinaria Abreu e Lima,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,Usina Ipojuca S/A,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,White Martins Gases,tipo_deposito,NOME,constr_deposito_p,"a,p"
+204,reservatório da compesa,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,Água,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,Combustível,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,Gás,tipo_deposito,NOME,constr_deposito_p,"a,p"
+113,Reservatório de Gás,tipo_deposito,NOME,constr_deposito_p,"a,p"
+132,Ultragaz,tipo_deposito,NOME,constr_deposito_p,"p,a"
+202,Caixa D'água Municipal,tipo_deposito,NOME,constr_deposito_p,"p,a"
+113,Usina de Cocaú,tipo_deposito,NOME,constr_deposito_p,"a,p"
+201,Compesa,tipo_veg,NOME,constr_deposito_p,p
+108,Maquinário,tipo_deposito,NOME,constr_deposito_p,"p,a"
+108,Usina Trapiche,tipo_deposito,NOME,constr_deposito_p,"p,a"
+108,Usina Trapiche-SA,tipo_deposito,NOME,constr_deposito_p,"p,a"
+112,Barracão de máquinas agrícolas,tipo_deposito,NOME,constr_deposito_p,"a,p"
+202,Caixa Dágua - Compahia Pernambucana de Saneamento,tipo_deposito,NOME,constr_deposito_p,"p,a"
+202,Compesa,tipo_deposito,NOME,constr_deposito_p,"p,a"
+108,Oficina de caminhões,tipo_deposito,NOME,constr_deposito_p,"p,a"
+202,Reservatório Elevado,tipo_deposito,NOME,constr_deposito_p,"p,a"
+198,Tanque de Combustível,tipo_deposito,NOME,constr_deposito_p,"p,a"
+904,Atacado,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2026,Centro de Reabilitação do SUS,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1398,Clube,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+519,Colégio,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+519,Escola,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+498,Estação de Tratamento de Efluentes Industriais,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+801,Estádio,tipo_veg,NOME,constr_edificacao_a,p
+520,Faculdade,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+802,Ginásio E.R.E.M,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2025,Hospital,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Hotel,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+523,Instituto Federal,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+601,Paróquia,tipo_veg,NOME,constr_edificacao_a,p
+1023,Petrobras Petroquímica,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2601,Posto Br,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2601,Posto Ipiranga,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Pousada,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1322,Prefeitura,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1023,Refinaria,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Residência Medina - Pousada e Aparts,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Salgado Agropecuária,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+601,Santuário Santo Cristo,tipo_veg,NOME,constr_edificacao_a,p
+1316,Secretaria de Saúde de Ipojuca,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+523,SENAI Ipojuca,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+0,Serralharia Trank Seguro,tipo_exposicao,NOME,constr_edificacao_a,"p,a"
+1020,Siw Kits Eólicos Ltda,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+302,Subestação da Compesa,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+904,Todo Dia,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Transpaz,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2025,UPA  Ipojuca - Unidade dePronto Atendimento,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1015,Usina Ipojuca S/A,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1024,White Martins Gases,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Windrose Serviços Marítmos LTDA,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Ziran Nordeste Transporte Rodoviario de Cargas Ltda,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1098,Aché Laboratórios Farmacêuticos,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1025,Amanco Wavin,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1025,Amcor Suape,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1098,APM Terminais Suape,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1031,Arclima Engenharria,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Centro de distribuição Toyota,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1045,Cimento Forte - CBMC,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+519,Colégio Santa Maria,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2213,Concessionária Rota do Atlântico,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+0,Condomínio Quintas da Praia,tipo_exposicao,NOME,constr_edificacao_a,"p,a"
+0,Condomínio Vila dos Corais,tipo_exposicao,NOME,constr_edificacao_a,"p,a"
+1098,Dexco Deca,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+517,Educandário Luz Divina,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,E-Log Pátio de Triagem,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+518,Escola Municipal Professora Maria Thamar Leite da Fonseca,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+405,Estação de Tratamento de Esgoto - Paiva,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1098,Estaleiro Atlântico Sul,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Estaleiro Vard Promar S.A,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Gmix - Fábrica de Cal,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Hotel Vila Galé,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+601,Igreja Nossa Senhora de Nazaré,tipo_veg,NOME,constr_edificacao_a,p
+1015,Ingredion Brasil,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1045,Intercement Brasil,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,JSL Cabo de Santo Agostinho,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+903,Novo Mundo Empresarial,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Pernambuco Desenvolvimento Industrial Pernambuco,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+905,Reserva do Paiva Hotel e Convention Center,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1034,Shineray do Brasil,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+904,Supermercado Arco-Mix,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+903,Unique Paiva,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+0,Varanda do Parque,tipo_exposicao,NOME,constr_edificacao_a,"p,a"
+1035,Windrose - Shipping Agents & Logistics,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Ancorar - Flat Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2501,APM Terminals,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2501,Autoridade Portuária,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Beach Class Muro Alto Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Beach Class Residence Eco Life Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Beach Class Solare,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Beach Class Summer,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Beach Class Verano,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Bloco Beijupira - Nannai Residence,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Brasilgás,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1015,Bunge Alimentos,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Cambôa Beach Club,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Copagaz Distribuidora,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Cupe Beach Living Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Ekoara Residence,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Enotel Hotel Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Enseada Muro Alto,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Estaleiro Atlântico Sul,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2501,Filial Petrobahia Base Suape - BASUA,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Flat Muro Alto Clube,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Hotel Solar - Porto de Galinhas,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Kembali Hotel,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,La Fleur Polinésia Residence & Resort,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,La Fleur Residence & Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Localfrio Logística Suata Serviços,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Makia Beach Muro Alto Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Malawí Muro Alto Beach House,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Malia Beach Experience,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Mana Beach Muro Alto Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1098,Marine Energy,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Marulhos Suítes Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Marupiara Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Maruplara Suítes,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Movecta Terminal Alfandegário,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Nannai Muro Alto,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Ocaporã Hotel,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Oka Flat Residence Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2101,Orgão de Gestão de Mão de Obra do Trabalho do Porto de Suape,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Palm Village Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Pandenor,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Plage Premiere Residence,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Porto Plaza Hotel,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Pousada Tabajuba,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Sâmoa Residence & Resort,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1015,Seara Alimentos,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,SP Ipojuca,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2501,Suape,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Summerville All,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Supergasbras,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+907,Tabaobí Smart Hotel,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,The Westin - Porto de Galinhas,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1023,Transpetro,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Ultragaz,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1304,VIGIAGRO Suape - Ministério da Agricultura,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Village porto de Galinhas Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Villa Muro Alto,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Vivá porto de Galinhas Resort,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1298,Alojamento da Usina Cucaú,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+9999,Escola Municipal Maria José Monteiro,#N/DISP,NOME,constr_edificacao_a,#N/DISP
+998,Mercado Público,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1098,Usina Cucaú,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+518,Centro de Ensino Integral Cristo Redentor,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+802,Centro Recreativo de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+2029,Comunidade Católica Nova Jericó,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+605,Convento de São Francisco,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+516,Creche Maria José Ferreira de,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+516,Creche Professora Beatriz Francisca da Silva,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+519,EREM - Escola Estadual de Referência em Ensino Médio Albertina da Costa Soares,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+998,Mercado Público de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+818,Pátio de Eventos José Hildo Hacker,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+0,Serrambi Resort,tipo_exposicao,NOME,constr_edificacao_a,"p,a"
+601,Templo Matriz da IEADPE - Sinharém,tipo_veg,NOME,constr_edificacao_a,p
+1098,Acender Engenharia,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+405,Antiga Estação de Tratamento de Esgoto,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1216,Aquacultura de Subsistência,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+818,Centro de Eventos Hildo Hacker,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+519,Escola de Referênca em Ensino Médio Wilson de Andrade Barreto,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+519,Escola Estadual Joaquim Silvério Pimentel,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+2025,Hospital Municipal Maria José Monteiro,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+907,Hotel Praia dos Carneiros,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+601,Igreja Evangélica Assembléia de Deus,tipo_veg,NOME,constr_edificacao_a,p
+910,Pátio da Feira do Rio Formoso,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+898,Praça de Alimentação Municipal Professora Beatriz de Moraes,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+1316,Secretaria de Infraestrutura e Serviços Públicos de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_a,"p,a"
+998,Sindicato do Trabalhadores Rurais do Rio Formoso,tipo_edificacao,NOME,constr_edificacao_a,"a,p"
+1798,3ª Companhia do 18º Batalhão de Polícia Militar,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1712,3ª Seção de Bombeiros de Incêdio - Corpo de Bombeiros,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1029,Aguilar y Salas Brasil,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1024,Alpek Polyester,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2101,Animal Amigo,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+2101,Associação do Pequenos Produtores Rurais,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Associação Quilombola Ilha de Mercês,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+498,Aterro Municipal de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1398,Autarquia Municipal de Trânsito e Transportes,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Banco do Brasil,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Banco Itaú,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Banco Santander,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Bar,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Belmont Transportes e Logística,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Borracharia,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Borracharia do Raimundo,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Cabo Vistoria de Veículos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+898,Cachoeira Eco Parque Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Caixa Banco do Nordeste,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Caixa Econômica,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Calium do Nordeste,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1308,Câmara Municipal de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1308,Câmara Municipal do Ipojuca - Anexo 1,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Capela de Nossa,tipo_veg,NOME,constr_edificacao_p,p
+1303,Cartório de Ipojuca - Ofício Único,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1303,Cartório Eleitoral,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1303,Cartório Registro Civil de Pessoas Naturais de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+498,Central de Tratamento de Resíduos - Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+519,Centro de Formação Professora Nadir da Costa Monteiro,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Centro de Referência à Saúde do Homem,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Centro de Saúde e Serviços,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Centro Educacional Maria Santíssima,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+603,Centro Espírita Trabalhos Espirituais,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Colégio e Curso Nova Visão,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+898,Companhia do Lazer,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2213,Concessionária Rota do Atlântico,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,Concrearte,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Congregação da Igreja Pentecostal Assembleia de Deus de Camela,tipo_veg,NOME,constr_edificacao_p,p
+525,Conselho Escolar Jesus Nazareno,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Conselho Municipal dos Direitos da Criança e do Adolescente,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1304,Controladoria Geral Municipal,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Cooperativa dos Transportadores de Açúcar e Cargas em Geral de Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Correios,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,CT - Botelho Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1315,Defensoria Pública do Estado de Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+3001,Delegacia de Polícia de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Educandário Santa Clara,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Educandário Vivendo e Aprendendo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Engenho Guerra,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1015,Envasadora de Água Gelito Ltda,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+518,EPP- Escola Primeiros Passos,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Bom Saber,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Fundamental Santa Rita,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Paroquial São Miguel,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1015,Espaço da Galega Bar,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Espaço Família Diniz,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+302,Estação de Tratamento de Água,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+405,Estação de Tratamento de Esgoto-  Nossa Senhora do Ó,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+303,Estação Elevatória de Água Bruta,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Fazenda Encontro das Águas,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2498,Feira Livre de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1046,Flare,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1215,Folhas Verdes Sementeira,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1313,Fórum de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1313,Fórum do Trabalho de Ipojuca - 1ª e 2ª Vara,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Igreja,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal o Poder da Fé,tipo_veg,NOME,constr_edificacao_p,p
+1025,Indorama Ventures Polímeros,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+523,Instituto Federal de Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+603,Ipajuã do Amanhecer,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1307,Ipojuca Prev,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2029,Laboratório Municipal do Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Locaserv,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+904,Mercadinho,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+904,Mercadinho Tora Tora,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+910,Mercado Público Vereador José Marinho Alves,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1398,Ministério Público de Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3002,Núcleo de Segurança Comunitária Nossa Senhora do Ó,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+818,Pátio de Eventos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+3003,Patrulha Rural,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1023,Petrobras Petroquímica,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Policlínica Severina Teles,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1045,polimix,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2601,Posto Br,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2601,Posto Ipiranga,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Pousada Carcará,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Primeira Igreja Batista de Filadélfia - Missão Evangélica Novo Israel,tipo_veg,NOME,constr_edificacao_p,p
+601,Primeira Igreja Batista em Nossa Senhora do Ó,tipo_veg,NOME,constr_edificacao_p,p
+1023,Refinaria Abreu  e Lima,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1023,Refinaria Abreu e Lima,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Rei das Coxinhas,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Renovadora de Pneus,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Restaurante,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Restaurante Delícias do Porto,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Restaurante e Lanchonete Sabor na Mesa,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+3003,Ronda Ostensiva Municipal,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,Salgado Agropecuária,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria da Mulher de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria de Agricultura de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria de Educação de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria de Habitação de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria de Infraestrutura de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria de Meio Ambiente e Controle Urbano de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Defesa Social  de Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2026,Servpac Serviços de Patologia Clínica,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Sítio João Isídio Pizzaria,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1020,Siw Kits Eólicos Ltda,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+201,Subestação - SUAPE 2,tipo_veg,NOME,constr_edificacao_p,p
+1304,Subprefeitura de Nossa Senhora do Ó,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1045,Supermix,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Tabernáculo em Ipojuca,tipo_veg,NOME,constr_edificacao_p,p
+998,Talentos Refeições,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Transpaz,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Unidade de Saúde da Família,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade Mista Santo Cristo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1015,Usina,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1046,White Martins Gases,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Windrose Serviços Marítimos LTDA,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Ziran Nordeste Transporte Rodoviario de Cargas Ltda,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+498,Aché Laboratórios Farmacêuticos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1025,Amanco Wavin,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1037,Ambipar ESG Oil Recovery,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1025,Amcor Suape,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,APM Terminais Suape,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1031,Arclima Engenharria,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Assembléia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Assembléia de Deus de Tiriri,tipo_veg,NOME,constr_edificacao_p,p
+2101,Associação de Moradores de Nazaré,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Associação dos Agricultores,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Associação dos Funcionários de Suape,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Associação dos Pequenos Agricultores e Moradores do Engenho Tiriri,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Associação Geral - Reserva do Paiva,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+898,Atelier Rinaldo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1037,Atlantic Star,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1215,Atmosphera Plantas e Paisagismo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2601,Auto posto Gaibu,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+498,Banheiro Público,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Bar da Deusa,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Bar da Rocha,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Bar do Artur,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Bar do Doido,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Bar do trevo,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Barracão do Dedé,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+3003,Base Integrada de Segurança,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+810,Biblioteca Municipal Farol das Letras,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Brisa de Itapuama Pousada,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+898,Calhetas Tirolesa Aventura,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Capela de São Pedro,tipo_veg,NOME,constr_edificacao_p,p
+601,Capela Nova de Santo Antônio do Monte,tipo_veg,NOME,constr_edificacao_p,p
+798,Casa de Farinha,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+201,Casa de Força,tipo_veg,NOME,constr_edificacao_p,p
+498,Central de Triagem de Resíduos e Compostagens,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Centro de distribuição Toyota,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1045,Cimento Forte - CBMC,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Colégio e Curso Coração de Maria,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Compesa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2213,Concessionária Rota do Atlântico,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Congregação Cristã no Brasil,tipo_veg,NOME,constr_edificacao_p,p
+1098,Dexco Deca,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,E-Log Pátio de Triagem,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+405,Estação de Tratamento de Esgoto - Gaibú,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+405,Estação de Tratamento de Esgoto - Paiva,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+403,Estação Elevatória Central - Paiva,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Estação Elevatória Compesa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Estaçao Elevatória de Esgoto 01 - Paiva,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Estação Elevatória de Esgoto B4 - Paiva,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Estaçao Elevatória de Esgoto C2 - Paiva,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Estaleiro Atlântico Sul,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Estaleiro Vard Promar S.A,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1798,Farol de Nazaré,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+907,Florestal Motel,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Igreja Adventista do Sétimo Dia,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Batista da Praia na Reserva do Paiva,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Batista Pentecostal,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Batista Pentecostal Suape,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja de São José - Paiva,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembléia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Congregacional Pentecostal,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Jesus de maravilhas Enseada dos corais,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal Assembléia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Presbiteriana do Brasil,tipo_veg,NOME,constr_edificacao_p,p
+1015,Ingredion Brasil,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1045,Intercement Brasil,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1114,Itapuama Minerações,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Ministério Levítico Internacional Casa de Deus,tipo_veg,NOME,constr_edificacao_p,p
+998,Miragem Bar e Restaurante,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+711,Mirante de Itapuama,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+711,Mirante Paraíso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+711,Mirante Vila Velha,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Morena tropicanas bar,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+803,Museu do Pescador,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Padoquinha Restaurante,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Paróquia São Pedro Apóstolo,tipo_veg,NOME,constr_edificacao_p,p
+898,Parque Metropolitano Armando Holanda Cavalcanti,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2213,Pedágio Rota dos Coqueiros,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+712,Pedra do Cogumelo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Pernambuco Desenvolvimento Industrial Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+709,Pico Cruzeiro do Sul,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+798,Ponto de Apoio ao Turista,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Restaurante Coco Verde,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+907,Restaurante e Pousada da Garrafa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Restaurante Recanto Paraíso,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2027,SAMU - Itapuama,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Serviço de Pronto Atendimento José Antônio de Lima,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1034,Shineray do Brasil,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Sítio Paraíso Pousada,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade de Saúde da Família - Doutor Manoel Vigia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade de Saúde da Família Enseada dos Corais,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade de Saúde da Família - Itapuama,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade de Saúde da Família Suape,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+0,Varanda do Parque,tipo_exposicao,NOME,constr_edificacao_p,"p,a"
+1035,Windrose - Shipping Agents & Logistics,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Aqua Load Teste de Carga em Guindaste,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+998,Barraca da Netinha,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2501,Base-Mar Porto de Suape,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+904,Beijupirá,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Brasilgás,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,BRAVANTE,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1015,Bunge Alimentos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Capela de Nossa Senhora da Conceição,tipo_veg,NOME,constr_edificacao_p,p
+998,Copagaz Distribuidora,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1023,Decal Brasil,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+904,Empório Muro alto,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1304,Escritóro da Receita Federal,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+403,Estação Elevatória - Porto de Galinhas,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Estaleiro Atlântico Sul,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Flat Muro Alto Clube,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+904,Kisu Restaurante,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Marine Energy,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Modern Import S.A,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Movecta Terminal Alfandegário,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1023,Nacional Gás,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Orgão de Gestão de Mão de Obra do Trabalho do Porto de Suape,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Pandenor,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2501,Pátio Portuário de Veiculos -2A,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2501,Pátio Portuário de Veiculos -2B,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,Petrobras Teape,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3005,Posto de Polícia Rodoviária Estadual,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2601,Posto Dislub,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1098,Raizen,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Rionet Fibra,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1015,Seara Alimentos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Sua Granéis,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2501,Suape,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+201,Subestação Estaleiro Atlântico Sul,tipo_veg,NOME,constr_edificacao_p,p
+998,Supergasbras,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Tecon Suape S/A,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+201,Termopernambuco,tipo_veg,NOME,constr_edificacao_p,p
+1023,Transpetro,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Ultracargo Logística S.A,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+998,Ultragaz,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,Vibra Energia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,1° Igreja Batista de Cucaú,tipo_veg,NOME,constr_edificacao_p,p
+1298,Alojamento - Usina Cucaú,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Assembléia de Deus Congregação Campestre,tipo_veg,NOME,constr_edificacao_p,p
+601,Capela do Sagrado Coração de Jesus,tipo_veg,NOME,constr_edificacao_p,p
+301,CAPTAÇÃO DE ÁGUA,tipo_veg,NOME,constr_edificacao_p,p
+601,Congregação IEADPE Cachoeirinha,tipo_veg,NOME,constr_edificacao_p,p
+601,Congregação IEADPE Engenho Belo Horizonte,tipo_veg,NOME,constr_edificacao_p,p
+516,Creche Municipal Nelbe Lúcia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Estadual Dr. Caetano Monteiro,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal 1° de Março,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal Antonio José de Paulo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal Armando Monteiro,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal Bom Jesus,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+517,Escola Municipal Dr. Francisco Romano de Brito Bastos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+517,Escola Municipal Edna de Araújo Pereira,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+517,Escola Municipal Gelzira Francisca e Lima,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+518,Escola Municipal Maria Dulce Leite Ferreira,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+517,Escola Municipal Maria Luiza Alheiro Ribeiro,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+517,Escola Municipal Maria Pereira Nascimento,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+517,Escola Municipal Nossa Senhora Aparecida,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+518,Escola Municipal Nossa Senhora do Carmo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Nossa Senhora das Graças,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2429,Hangar Usina Cucaú,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Igreja Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Assembléia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja de Nossa Senhora de Aparecida,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangelica Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembléia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+910,Mercado Público,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Posto Médico de Cucaú,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2209,Terminal Municipal do Destrito de Cucaú,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,UBS Agrovila Conceição,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,1ª Igreja Presbiteriana Renovada de Ipojuca,tipo_veg,NOME,constr_edificacao_p,p
+1114,Areiasil,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2026,Atendimento Multiprofissional Especializado,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Banco Caixa Econômica Federal,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+908,Banco do Brasil,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1308,Camara Municipal deVereadores de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Capela da Sagrada Família,tipo_veg,NOME,constr_edificacao_p,p
+601,Capela de Santa Clara,tipo_veg,NOME,constr_edificacao_p,p
+601,Capela de Santo Antônio,tipo_veg,NOME,constr_edificacao_p,p
+601,Capela de São Francisco,tipo_veg,NOME,constr_edificacao_p,p
+1303,Cartório do Registro Civil do 2° DistritoSirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1398,Centro de Atendimento ao Turista,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2026,Centro de Atendimento Especializado,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2101,Centro de Convivência Barra de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Centro de Convivência Centro Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Centro de Convivência dos Idosos,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1798,Centro de Operações e Instruções da Guada Civil Municipal do Ipojuca Prefeito Jaime Lins,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2026,Centro de Reabilitação de Fisioterapia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2101,Centro de Referência Assistencia Social,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2101,Centro de Referência Especializado de Assistência Social Acolhida Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Centro de Unidade Básica de Saúde Barra II Pascoal Elias dos Santos,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Centrode Unidade Básica São Roque,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Centro Municipal de Ensino Infantil da Colônia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Centro Municipal de Ensino Infantil Porto de Pedra,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Centro Municipal de Saúde Pedro Buarque Gusmão,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Centro Unidade Básica de Saúde Cristo Redentor,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Cocolândia,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+898,Companhia do Lazer,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+302,Compesa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Creche Frei Mário,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Defensoria Pública do Estado de  Pernambuco,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3001,Delegacia de Polícia da 73 Circ. Sinharém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Departamento de Escolas Rurais de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3002,Departamento de Polícia Militar de Sinharém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Educandário Renascer (Porto de Galinhas),tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal São José,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1313,Fórum de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Grupo Escolar João XXIII,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Guarda Municipal de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2025,Hospital e Materndade Olimpio Machado Gouveia Lins,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Igreja Adventista do Sétimo Dia - Porto de Galinhas,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Apostólica Ministério Resgatar,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Batista,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Betel,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Católica de Nossa Senhora Aparecida,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembleia de Deus MIinistério de Madureira,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Matriza de São Francisco de Assis,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Nossa Senhora da Conceição,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal Assembleia de Deus - Sítio Teófilo,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentecostal em Jenipapo,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Presbiteriana em Porto de Galinhas,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Universal Porto De Galinhas,tipo_veg,NOME,constr_edificacao_p,p
+2101,Mãe Coruja Ipojuca,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1798,Marinha do Brasil,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Policlínica de Camela,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+998,Posto de Combustìvel Setta,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1322,Prefeitura Municipal de Sinharém,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Primeira Igreja Batista de Filadélfia,tipo_veg,NOME,constr_edificacao_p,p
+601,Primeira Igreja Batista de Filadélfia - Base Camela I,tipo_veg,NOME,constr_edificacao_p,p
+601,Primeira Igreja Batista Filadélfia Missão Evangélica,tipo_veg,NOME,constr_edificacao_p,p
+601,Salão do Reino das Testemunhas de Jeová,tipo_veg,NOME,constr_edificacao_p,p
+1316,Secretaria de Assistência Social e Trabalho de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Educação de Sirinhaém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Serrambi Resort,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Subprefeitura de Barra de Sirinhaém/ Centro de Atendimento ao Turista,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Subprefeitura de Porto de Galinhas,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Templo Matriz da Igreja Evangélica Assembléia de Deus - Camela,tipo_veg,NOME,constr_edificacao_p,p
+2209,Terminal Rodoviário do Sinharém,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade Básica de Saúde,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2025,Unidade de Pronto Atendimento Porto de Galinhas- Enfermeiro João José de Lima,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade de Saúde Jonas Pereira de Lira Spa Serrambi,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3002,Unidade Integrada de Segurança,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade Saúde da Família I - Camela,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1798,11 Junta de Serviço Militar - Prefeitura de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,1 Igreja Batista,tipo_veg,NOME,constr_edificacao_p,p
+898,Academia das Cidades de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+0,Admnistração do Aterro Controlado - Consórcios de Municípios do Litoral Sul,tipo_exposicao,NOME,constr_edificacao_p,"p,a"
+2028,Ambulatório Especializado do Hospital Municipal Maria José Monteiro,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+517,Anexo Comunidade Unicap da Escola Municipal Maria do Carmo Silva Neves,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+405,Antiga Edificação da Compesa,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+0,Associação da Comunidade Quilombola Engenho Siqueira - Sede Amaro Ferreira de Paula,tipo_exposicao,NOME,constr_edificacao_p,"p,a"
+908,Banco Bradesco,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+798,Cachoeira de Saltinho,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1308,Câmara Municipal Dr Américo de Siqueira Brito,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1303,Cartório da 26 Zona Eleitoral,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1303,Cartório de Notas de Rio Formoso - Tabelionato Marcílio Gonzales Leite,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1398,Casa de Justiça e Cidadania,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+698,Casa de Yemanjá - Hospital das Almas - Terreiro de Umbanda,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1798,Centro de Assistência Psicossocial - CAPS,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2026,Centro de Radiologia Municipal-Mauro José Mendes da Silva,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2029,Centro de Referência de Assistência Social - Casa das Famílias,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2029,Centro de Referência Especializado de Assistência Social,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+518,Colégio Santa Clara,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Congregação da Igreja Evangélica Assembleia de Deus - Engenho Pacavira,tipo_veg,NOME,constr_edificacao_p,p
+601,Congregação IEADPE FORGES,tipo_veg,NOME,constr_edificacao_p,p
+601,Congregação IEADPE Pedra de Amolar,tipo_veg,NOME,constr_edificacao_p,p
+1398,Conselho Tutelar - Município de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Correios,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Cozinha Comunitária de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+516,Creche Municipal Nair Lopes de Oliveira,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+3001,Delegacia de Polícia Civil - 78 Circunscrição - Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Educandário José Múcio Monteiro,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Engenho Boa Vista,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Engenho Changuá,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal Adélia Carneiro Raposo,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+518,Escola Municipal Santo Antônio,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+0,Escritório do Aterro Controlado- Consórcios de Municípios do Litoral Sul,tipo_exposicao,NOME,constr_edificacao_p,"p,a"
+302,Estação de Tratamento de Água - Compahia Pernambucana de Saneamento - Compesa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+301,Estação de Tratamento de Água - Compahia Pernambucana de Saneamento- Unidade Engenho Amaragi,tipo_veg,NOME,constr_edificacao_p,p
+1218,Fazenda Lili,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1313,Fórum da Comarca de Rio Formoso - Agamenon Magalhães,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1212,Granja Santa Rita,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+201,Hidrelétrica Usina Trapiche,tipo_veg,NOME,constr_edificacao_p,p
+907,Hotel Fazenda Amaragi,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+907,Hotel Praia dos Carneiros,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Igreja Batista Missionária Shekinah,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja de Santo Inácio de Loyola,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja de São Francisco de Assis,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Evangélica Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Nossa Senhora do Livramento,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Nossa Senhora do Rosário dos Pretos,tipo_veg,NOME,constr_edificacao_p,p
+601,Igreja Pentencostal Assembleia de Deus,tipo_veg,NOME,constr_edificacao_p,p
+524,Instituto Marcos Hacker de Melo - Filarmonica de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+517,Jardim de Infância Doutor Clemenceau Dutra,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1398,Lavanderia Comunitária - Engenho Duas Bocas,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Loja de Atendimento - Compahia Pernambucana de Saneamento - Compesa,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+910,Mercado das Artes,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+803,Museu Municipal de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+601,Paróquia de São José,tipo_veg,NOME,constr_edificacao_p,p
+818,Parque Aquático - Rio Park,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+201,PCH Luis Dias Lins,tipo_veg,NOME,constr_edificacao_p,p
+998,Posto de Combustível Ipiranga,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1322,Prefeitura Municipal do Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+907,Rancho Imperador,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Reserva Ambiental de Saltinho,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+798,Ruinas da Igreja do Engenho Mamucabas,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+601,Salão do Reino das Testemunhas de Jeová,tipo_veg,NOME,constr_edificacao_p,p
+1316,Secretaria de Esportes e Eventos de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Agricultura de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Desenvolvimento Econômico,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Educação de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal de Saúde de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1316,Secretaria Municipal Turismo e Cultura,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1398,Sede Administrativa da Reserva Ambiental de Saltinho - Instituto Chico Mendes,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1298,Sede Sítio Cruz das Almas,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1212,Sítio Kairós,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1298,Sítio Sabiá,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+1098,Smart Massa - Produção de concreto,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+201,Subestação Rebaixadora de energia,tipo_veg,NOME,constr_edificacao_p,p
+601,Templo Batista,tipo_veg,NOME,constr_edificacao_p,p
+2208,Terminal Rodoviário de Rio Formoso,tipo_edificacao,NOME,constr_edificacao_p,"a,p"
+2028,Unidade Básica de Saúde - Paquevira,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+2028,Unidade Básica de Saúde Vila Unicap,tipo_edificacao,NOME,constr_edificacao_p,"p,a"
+1,Fonte de Água Santo Agostinho,tipo_elemento_hidrografico,NOME,constr_extracao_mineral_a,p
+1,Fonte de Água Santo Agostinho,tipo_elemento_hidrografico,NOME,constr_extracao_mineral_p,p
+1,Fonte São Luiz,tipo_elemento_hidrografico,NOME,constr_extracao_mineral_p,p
+4,Itapuama Minerações,tipo_massa_dagua,NOME,constr_extracao_mineral_p,p
+1,Poço Diamante,tipo_elemento_hidrografico,NOME,constr_extracao_mineral_p,p
+201,Arena Caetés,tipo_veg,NOME,constr_ocupacao_solo_a,p
+201,Arena Toca do Tatu,tipo_veg,NOME,constr_ocupacao_solo_a,p
+201,Campo do Engenho Guerra,tipo_veg,NOME,constr_ocupacao_solo_a,p
+104,Cemitério de Ipojuca,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+104,Cemitério Nossa Senhora do Ó,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+404,Cooperativa dos Transportadores de Açucar e Cargas em Geral de Pernambuco,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,p,l"
+206,Escola Muncipal Jesus Nazareno,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+206,Escola Municipal Santa Inês,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+206,Quadra Poliesportiva Ademilson José de Santana,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+206,Quadra Poliesportiva do SENAI,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+104,Cemitério Vila de Nazaré,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+201,Condomínio Acqua Marine,tipo_veg,NOME,constr_ocupacao_solo_a,p
+201,Condomínio Varanda do Parque,tipo_veg,NOME,constr_ocupacao_solo_a,p
+404,E-Log Pátio de Triagem,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,p,l"
+701,Quartel Velho,tipo_veg,NOME,constr_ocupacao_solo_a,p
+201,Campo de Futebol Engenho Sauezinho,tipo_veg,NOME,constr_ocupacao_solo_a,p
+104,Cemitério Municipal Distrito de Cocaú,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+201,Centro Recreativo Cocauense,tipo_veg,NOME,constr_ocupacao_solo_a,p
+206,Quadra Poliesportiva da Escola Municipal Maria José Monteiro,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+201,Campo de Futebol em Jenipapo,tipo_veg,NOME,constr_ocupacao_solo_a,p
+201,Campo de São Paulo,tipo_veg,NOME,constr_ocupacao_solo_a,p
+104,Cemitério Municipal de Santo Amaro,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+206,Escola de Rferência em Ensino Médio Dr. Eurico Chaves,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+206,ESCOLA MUNICIPAL MIN. JARBAS PASSARINHO,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+201,ESTÁDIO DE CAMELA,tipo_veg,NOME,constr_ocupacao_solo_a,p
+206,Ginásio Poliesportivo Municipal Ivaldo José da Silva,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+206,Quadra Poliesportiva de Camela,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+104,Cemitério de Rio Formoso,tipo_edificacao,NOME,constr_ocupacao_solo_a,"p,a"
+206,Ginásio Municipal Roberto Mota de Lima,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_a,"a,l,p"
+398,Pista de Vaquejada,tipo_deposito,NOME,constr_ocupacao_solo_l,"a,p"
+298,Pista de Skate,tipo_deposito,NOME,constr_ocupacao_solo_p,"a,p"
+701,Capela de São Gonçalo do Amarante,tipo_veg,NOME,constr_ocupacao_solo_p,p
+701,Casa do Faroleiro,tipo_veg,NOME,constr_ocupacao_solo_p,p
+206,Condomínio Jardim do Mar,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_p,"a,l,p"
+701,Convento Carmelita,tipo_veg,NOME,constr_ocupacao_solo_p,p
+701,Forte Castelo do Mar,tipo_veg,NOME,constr_ocupacao_solo_p,p
+701,Forte São Francisco Xavier,tipo_veg,NOME,constr_ocupacao_solo_p,p
+206,La Fleur Polinésia Residence & Resort,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_p,"a,l,p"
+206,Quadra do Beach Class Residence Resort,tipo_ocupacao_solo,NOME,constr_ocupacao_solo_p,"a,l,p"
+701,Chaminé,tipo_veg,NOME,constr_ocupacao_solo_p,p
+11,Cabo Santo Agostinho,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+2,Cerro Camassara,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+10,Ponta das Pedras Pretas,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+2,Morro da Misericórdia,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+10,Ponta do Serrambi,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+10,Pontal ou Praia da Colônia,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+12,Praia das Cacimbas,tipo_elemento_hidrografico,NOME,elemnat_toponimo_fisiografico_natural_p,p
+1,Córrego Saltinho,tipo_elemento_hidrografico,NOME,elemnat_trecho_drenagem_l,p
+1801,CELPE - Porto de Galinhas,tipo_elemento_energia,NOME,infra_elemento_energia_a,"p,a,l"
+1801,Subestação - CELPE,tipo_elemento_energia,NOME,infra_elemento_energia_a,"p,a,l"
+1801,Subestação SUAPE 3 - CHESF,tipo_elemento_energia,NOME,infra_elemento_energia_a,"p,a,l"
+1802,Aché Laboratórios Farmacêuticos,tipo_elemento_energia,NOME,infra_elemento_energia_a,"a,l,p"
+1802,Subestação Elétrica Enseada dos Corais - CELPE,tipo_elemento_energia,NOME,infra_elemento_energia_a,"a,l,p"
+409,Estação de Distribuição Termopermambuco,tipo_ocupacao_solo,NOME,infra_elemento_energia_a,"l,a,p"
+1802,Subestação Estaleiro Atlântico Sul,tipo_elemento_energia,NOME,infra_elemento_energia_a,"a,l,p"
+1802,Subestação Refinaria Suape,tipo_elemento_energia,NOME,infra_elemento_energia_a,"a,l,p"
+409,Subestação Termopernambuco,tipo_ocupacao_solo,NOME,infra_elemento_energia_a,"l,a,p"
+409,Termopernambuco,tipo_ocupacao_solo,NOME,infra_elemento_energia_a,"l,a,p"
+408,Pequena Centrais Hidrelétricas Luiz Dias Lins,tipo_edificacao,NOME,infra_elemento_energia_a,"p,a"
+303,LT 500 kV Recife II - Suape II C1,tipo_edificacao,NOME,infra_elemento_energia_l,"p,a"
+303,Termopernambuco,tipo_edificacao,NOME,infra_elemento_energia_l,"p,a"
+1802,Cimento Forte - CBMC,tipo_elemento_energia,NOME,infra_elemento_energia_p,"a,l,p"
+1802,Subestação Estaleiro Atlântico Sul,tipo_elemento_energia,NOME,infra_elemento_energia_p,"a,l,p"
+406,AMB - Energias Renováveis,tipo_edificacao,NOME,infra_elemento_energia_p,"a,p"
+408,Pequena Centrais Hidrelétricas Luiz Dias Lins,tipo_edificacao,NOME,infra_elemento_energia_p,"p,a"
+1938,CAS,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_a,"a,p,l"
+1201,Claro,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1201,Vivo,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1201,Torre de Controle,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1201,TIM,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1201,Usina Cucaú,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1201,VIVO,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+1301,Antena de Internet Comunitária,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,a,p"
+1201,Torre de comunicação - Base Neoenergia,tipo_elemento_infraestrutura,NOME,infra_elemento_infraestrutura_p,"l,p,a"
+203,Ponte Pirapama,tipo_deposito,NOME,infra_elemento_viario_l,"p,a"
+7,Estrada de Ferro Santo André,tipo_massa_dagua,NOME,infra_ferrovia_l,p
+5,Avenida Fernando Egito de Oliveira,tipo_limite_especial,NOME,infra_via_deslocamento_l,p
+5,Rua BArra de Sirinhaém,tipo_limite_especial,NOME,infra_via_deslocamento_l,p
+5,Rua São Francisco,tipo_limite_especial,NOME,infra_via_deslocamento_l,p
+5,Travessa Rejane,tipo_limite_especial,NOME,infra_via_deslocamento_l,p
+2,Estrada Engenho Momocaba,tipo_elemento_hidrografico,NOME,infra_via_deslocamento_l,p
+2,PE,tipo_elemento_hidrografico,NOME,infra_via_deslocamento_l,p
+2,PE-,tipo_elemento_hidrografico,NOME,infra_via_deslocamento_l,p
